@@ -13,14 +13,14 @@ npm supports `--before=<date>` which tells the resolver to ignore versions publi
 ```bash
 mkdir -p ~/.local/bin
 
-curl -fsSL https://raw.githubusercontent.com/579550/npm-quarantine/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/maximus-cx-solutions-ai/npm-quarantine/main/install.sh | bash
 ```
 
 Or manually:
 
 ```bash
 mkdir -p ~/.local/bin
-curl -fsSL https://raw.githubusercontent.com/579550/npm-quarantine/main/npm-quarantine -o ~/.local/bin/npm
+curl -fsSL https://raw.githubusercontent.com/maximus-cx-solutions-ai/npm-quarantine/main/npm-quarantine -o ~/.local/bin/npm
 chmod +x ~/.local/bin/npm
 
 # Add to your shell profile (~/.bashrc, ~/.zshrc, ~/.profile):

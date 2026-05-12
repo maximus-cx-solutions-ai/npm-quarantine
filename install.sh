@@ -8,7 +8,7 @@ SCRIPT_DIR="$(cd "$(dirname "$0")" && pwd)"
 if [[ -f "$SCRIPT_DIR/npm-quarantine" ]]; then
   cp "$SCRIPT_DIR/npm-quarantine" "$DEST/npm"
 else
-  curl -fsSL https://raw.githubusercontent.com/579550/npm-quarantine/main/npm-quarantine -o "$DEST/npm"
+  curl -fsSL https://raw.githubusercontent.com/maximus-cx-solutions-ai/npm-quarantine/main/npm-quarantine -o "$DEST/npm"
 fi
 chmod +x "$DEST/npm"
 
